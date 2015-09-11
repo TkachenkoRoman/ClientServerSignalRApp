@@ -1,0 +1,8 @@
+XamarinClient.MainActivity, XamarinClient;md534652672f2ca3112551f6d5f3a68e907.MainActivity
+XamarinClient.MainActivity, XamarinClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md534652672f2ca3112551f6d5f3a68e907.MainActivity
+XamarinClient.MainActivity;md534652672f2ca3112551f6d5f3a68e907.MainActivity
+xamarinclient.MainActivity;md534652672f2ca3112551f6d5f3a68e907.MainActivity
+OxyPlot.Xamarin.Android.PlotView, OxyPlot.Xamarin.Android;md589a1fff84fc009568a7e522f954205e0.PlotView
+OxyPlot.Xamarin.Android.PlotView, OxyPlot.Xamarin.Android, Version=2015.1.999.0, Culture=neutral, PublicKeyToken=null;md589a1fff84fc009568a7e522f954205e0.PlotView
+OxyPlot.Xamarin.Android.PlotView;md589a1fff84fc009568a7e522f954205e0.PlotView
+oxyplot.xamarin.android.PlotView;md589a1fff84fc009568a7e522f954205e0.PlotView

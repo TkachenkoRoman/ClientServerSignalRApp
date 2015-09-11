@@ -1,0 +1,13 @@
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\bin\Debug\Newtonsoft.Json.dll
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\bin\Debug\Newtonsoft.Json.xml
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\obj\Debug\WindowsFormsClient.csprojResolveAssemblyReference.cache
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\obj\Debug\WindowsFormsClient.Form1.resources
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\obj\Debug\WindowsFormsClient.Properties.Resources.resources
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.GenerateResource.Cache
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\obj\Debug\WindowsFormsClient.exe
+D:\Infopulse\ClientServerSignalRApp\WindowsFormsClient\obj\Debug\WindowsFormsClient.pdb
