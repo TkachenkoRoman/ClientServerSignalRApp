@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:actionBarNavMode="list">
+    <TextView
+        android:text="Status:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewStatus"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:text="Connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewStatus"
+        android:id="@+id/buttonConnect"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="false" />
+    <TextView
+        android:text="Number: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonConnect"
+        android:id="@+id/textViewLabelNumber"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Server time:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLabelNumber"
+        android:id="@+id/textViewLabelServerTime"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Server time:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLabelNumber"
+        android:id="@+id/textViewLabelServerTime"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Buffer size:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLabelServerTime"
+        android:id="@+id/textViewLabelBufferSize"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:text="..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewLabelNumber"
+        android:id="@+id/textViewNumber"
+        android:layout_below="@id/buttonConnect"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewLabelServerTime"
+        android:id="@+id/textViewServerTime"
+        android:layout_below="@id/textViewLabelNumber"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewLabelBufferSize"
+        android:id="@+id/textViewBufferSize"
+        android:layout_below="@+id/textViewLabelServerTime"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp" />
+    <Button
+        android:text="Pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPauseResume"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp" />
+    <Button
+        android:text="Resume (current)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/buttonPauseResume"
+        android:id="@+id/buttonResumeRealFlow"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textViewLabelBufferSize"
+        android:id="@+id/linearLayoutChart"
+        android:layout_above="@id/buttonPauseResume"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        <oxyplot.xamarin.android.PlotView
+            android:id="@+id/plotView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>
